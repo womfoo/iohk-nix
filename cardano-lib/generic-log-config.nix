@@ -37,7 +37,7 @@
 
   # The Prometheus monitoring system can also be used. Uncomment the following
   # to listen on the given port
-  hasPrometheus = [ "127.0.0.1" 12798 ];
+  hasPrometheus = [ "0.0.0.0" 12798 ];
 
   # For the Katip logging backend we must set up outputs (called scribes)
   # The available types of scribe are:
